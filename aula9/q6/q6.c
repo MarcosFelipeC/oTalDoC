@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 int main(){
         int numerador = 4, denominadorInicial = 1, denominadorFinal = 29;
         float resultadoSoma = 0;
