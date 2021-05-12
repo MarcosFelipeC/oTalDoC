@@ -181,12 +181,12 @@ void calculaDeterminante(){
 			float matriz2[3][3];
 			preencheMatriz(3,3, matriz2);
 			exibeMatriz(3,3, matriz2, 1);
-			determinante = (matriz2[0][0]+matriz2[1][1]+matriz2[2][2] +
-					matriz2[0][1]+matriz2[1][2]+matriz2[2][0] +
-					matriz2[0][2]+matriz2[1][0]+matriz2[2][1]) -
-				       (matriz2[0][2]+matriz2[1][1]+matriz2[2][0] +
-					matriz2[0][0]+matriz2[1][2]+matriz2[2][1] +
-					matriz2[0][1]+matriz2[1][0]+matriz2[2][2]);
+			determinante = (matriz2[0][0]*matriz2[1][1]*matriz2[2][2] +
+					matriz2[0][1]*matriz2[1][2]*matriz2[2][0] +
+					matriz2[0][2]*matriz2[1][0]*matriz2[2][1]) -
+			               (matriz2[0][2]*matriz2[1][1]*matriz2[2][0] +
+					matriz2[0][0]*matriz2[1][2]*matriz2[2][1] +
+					matriz2[0][1]*matriz2[1][0]*matriz2[2][2]);
 			printf("\nO det(matriz) = %0.2f\n", determinante);
 			break;
 		default:
