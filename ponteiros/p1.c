@@ -2,7 +2,7 @@
 #include <math.h>
 
 float radianos(float graus){
-	return(graus*3,14/180);
+	return(graus*(M_PI/180));
 }
 
 int main(void){
