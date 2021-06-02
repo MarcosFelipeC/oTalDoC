@@ -16,7 +16,7 @@ int main(){
 
 	if (n1<0) printf("Erro! O número n pode ser negativo\n");
 	else{
-		printf ("%d", n1);
+		if (n1>0) printf ("%d", n1);
 		resultado = fatorial(n1);
 		printf("\nO resultado do fatorial vale: %d\n", resultado);
 	}
