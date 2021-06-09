@@ -199,7 +199,7 @@ int main (){
 	//system("clear");
 	printf("+++ Calculadora de Matriz +++");
 	printf("\nRetorne uma opção de 1 à 4:");
-	printf("\n1 - Soma de matrizes, 2 - Subtração de Matrizes, 3 - Multiplicação, 4 - Cálculo de Determinantes\n");
+	printf("\n1 - Soma de matrizes, \n2 - Subtração de Matrizes, \n3 - Multiplicação, \n4 - Cálculo de Determinantes\n");
 	scanf("%d", &opcao);
 	if (opcao == 1) calculaSoma();
 	else if (opcao == 2) calculaSubtracao();

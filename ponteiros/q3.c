@@ -1,5 +1,5 @@
 #include <stdio.h>
-int fatorial (int n){
+int fatorial (int n){ //fatorial recursivo
 	if (n <= 1){
 		return 1;
 	}
